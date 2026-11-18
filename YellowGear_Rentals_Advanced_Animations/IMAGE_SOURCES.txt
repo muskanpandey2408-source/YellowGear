@@ -1,0 +1,14 @@
+YellowGear Rentals — image source notes
+
+The vehicle card photographs are loaded from external image hosts:
+- Unsplash image CDN (Aero Hatch, Trail Hunter)
+- Public Readdy image host (Voltra Sedan)
+- ITC image host (Ridge Explorer)
+- Carsite South Africa image host (Cargo Max)
+- Squarespace image CDN (Roadster 350)
+- 360CarScan image host (Cruise 150)
+- Velca Motor image host (Zip Scoot)
+
+Internet access is required for remote images. If a host blocks hotlinking or removes an image,
+the browser's image fallback will use another vehicle image from the same category.
+Check each host's current usage terms before public/commercial deployment.

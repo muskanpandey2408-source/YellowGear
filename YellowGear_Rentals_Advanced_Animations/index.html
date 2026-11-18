@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0b1020">
+    <meta name="description" content="YellowGear Rentals — find and book your next ride.">
+    <title>YellowGear Rentals</title>
+
+    <!-- Google Fonts (optional: the site falls back to system fonts offline) -->
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Hanken+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Top bar: logo, menu links (filled by script.js) and logged-in user -->
+    <header>
+        <a class="logo" href="#fleet"><b>Yellow</b>Gear</a>
+        <nav id="nav"></nav>
+        <span id="who"></span>
+    </header>
+
+    <!-- Main area: script.js draws the current page in here -->
+    <main id="v"></main>
+
+    <footer class="site-footer">
+        <span class="footer-brand">YellowGear <b>RENTALS</b></span>
+        <span>Find your ride. Own the road.</span>
+        <span class="footer-copy">© 2026 YellowGear Rentals. All rights reserved.</span>
+    </footer>
+
+    <!-- Small message that appears at the bottom of the screen -->
+    <div id="toast" role="status"></div>
+
+    <!-- Pop-up used for booking and the receipt -->
+    <dialog id="m">
+        <div class="dl" id="mb"></div>
+    </dialog>
+
+    <!-- Application logic -->
+    <script src="script.js"></script>
+</body>
+
+</html>
